@@ -1,7 +1,8 @@
 # Запуск  
 1. `git clone https://github.com/MaksimovDenis/floodControl.git`  
 2. Перейти в директорию проекта.  
-3. Из дериктории проекта выполнить команды:   
+3. Из дериктории проекта выполнить команды:
+`cd floodControl` (если вы не в корневой папке проекта)    
 `docker-compose build`  
 `docker-compose up`  
 - Приложение запустится с данными параметрами:    
