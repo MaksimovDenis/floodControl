@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  flood-control-task:
+    build: ./
+    depends_on:
+      - db
+    volumes:
+      - ./configs:/path/to/configs/in/container
+
+
+  db:
+    restart: always
+    image: redis:latest
+    volumes:
+      - redis-data:/data
+    ports:
+      - 6379:6379
+
+volumes:
+  redis-data:
+    driver: local
