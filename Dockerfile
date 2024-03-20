@@ -6,6 +6,6 @@ ENV GOPATH=/
 COPY ./ ./
 
 RUN go mod download
-RUN go build -o flood-control-task ./main.go
+RUN go build -o flood-control-task ./cmd/main.go
 
 CMD ["./flood-control-task"]

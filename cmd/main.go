@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"encoding/json"
-	"flood-control-task/floodcontrol"
+	floodcontrol "flood-control-task/internal"
 
 	"fmt"
 	"io"
