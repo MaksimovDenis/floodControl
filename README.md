@@ -1,5 +1,9 @@
 # Запуск  
-1. `git clone https://github.com/MaksimovDenis/floodControl.git`  
+
+1. Сколнировать репозиторий:
+```bash   
+git clone https://github.com/MaksimovDenis/floodControl.git
+```
 2. Перейти в директорию проекта (если Вы не в ней):  
 ```bash    
 cd floodControl 
